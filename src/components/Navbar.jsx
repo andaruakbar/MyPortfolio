@@ -128,7 +128,9 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/andaru-akbar-270484214/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Linkedin <FaLinkedin size={30} />
@@ -136,7 +138,9 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-600">
             <a
-              href="/"
+              href="https://github.com/andaruakbar"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Github <FaGithub size={30} />
@@ -144,7 +148,9 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-700">
             <a
-              href="/"
+              href="https://wa.me/+6281232090483"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Whatsapp <FaWhatsapp size={30} />
@@ -152,15 +158,20 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-700">
             <a
-              href="/"
+              href="mailto:andaruakbar11@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
-              Email <HiOutlineMail size={30} />
+              Email
+              <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-400">
             <a
-              href="/"
+              href="https://drive.google.com/file/d/19YFQy7gpeoW1oKjThScBRPFRBJgRbE5f/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
