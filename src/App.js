@@ -1,18 +1,15 @@
-import About from "./components/About";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skill from "./components/Skill";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Welcome from "./pages/Welcome";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skill />
-      <Projects />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Welcome />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
