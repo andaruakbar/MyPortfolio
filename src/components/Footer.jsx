@@ -9,27 +9,47 @@ const Footer = () => {
       <div className="flex justify-center items-center px-4">
         <div className="flex gap-3">
           <div className="bg-slate-600 p-2 rounded-md">
-            <a href="/">
+            <a
+              href="https://github.com/andaruakbar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub size={30} />
             </a>
           </div>
           <div className="bg-blue-700 p-2 rounded-md">
-            <a href="/">
+            <a
+              href="https://www.linkedin.com/in/andaru-akbar-270484214/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin size={30} />
             </a>
           </div>
           <div className="bg-green-700 p-2 rounded-md">
-            <a href="/">
+            <a
+              href="https://wa.me/+6281232090483"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaWhatsapp size={30} />
             </a>
           </div>
           <div className="bg-red-700 p-2 rounded-md">
-            <a href="/">
+            <a
+              href="mailto:andaruakbar11@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <HiOutlineMail size={30} />
             </a>
           </div>
           <div className="bg-slate-400 p-2 rounded-md">
-            <a href="/">
+            <a
+              href="https://drive.google.com/file/d/19YFQy7gpeoW1oKjThScBRPFRBJgRbE5f/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsFillPersonLinesFill size={30} />
             </a>
           </div>
