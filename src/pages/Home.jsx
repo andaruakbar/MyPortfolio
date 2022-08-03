@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -8,7 +8,9 @@ import Projects from "../components/Projects";
 import Skill from "../components/Skill";
 
 const Home = () => {
-  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    document.title = "My Personal Website";
+  }, []);
 
   return (
     <div>
