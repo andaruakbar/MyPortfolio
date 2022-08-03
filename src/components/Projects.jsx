@@ -27,12 +27,20 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className="pt-8 text-center">
-                <a href="https://housefancygroup1.vercel.app/">
+                <a
+                  href="https://housefancygroup1.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#2196f3] rounded-lg px-2 py-1 m-2 button-light-demo">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/andaruakbar/House-Fancy">
+                <a
+                  href="https://github.com/andaruakbar/House-Fancy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#9121f3] rounded-lg px-2 py-1 m-2 button-light-code">
                     Code
                   </button>
@@ -52,7 +60,11 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/andaruakbar/project-olshop-frontend">
+                <a
+                  href="https://github.com/andaruakbar/project-olshop-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#9121f3] rounded-lg px-2 py-1 m-2 button-light-code">
                     Code
                   </button>
@@ -68,12 +80,20 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className="pt-8 text-center">
-                <a href="https://mymovies-app-react-andaru.vercel.app/">
+                <a
+                  href="https://mymovies-app-react-andaru.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#2196f3] rounded-lg px-2 py-1 m-2 button-light-demo">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/andaruakbar/mymovies-app-react">
+                <a
+                  href="https://github.com/andaruakbar/mymovies-app-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#9121f3] rounded-lg px-2 py-1 m-2 button-light-code">
                     Code
                   </button>
@@ -88,12 +108,20 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-center">
-                <a href="https://todo-list-app-andaru.vercel.app/">
+                <a
+                  href="https://todo-list-app-andaru.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#2196f3] rounded-lg px-2 py-1 m-2 button-light-demo">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/andaruakbar/todo-list-app">
+                <a
+                  href="https://github.com/andaruakbar/todo-list-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center border-2 border-[#9121f3] rounded-lg px-2 py-1 m-2 button-light-code">
                     Code
                   </button>
