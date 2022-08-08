@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -51,6 +51,15 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <BsFillPersonLinesFill size={30} />
+            </a>
+          </div>
+          <div className="bg-red-900 p-2 rounded-md">
+            <a
+              href="https://youtu.be/-f-BR8LF-sQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube size={30} />
             </a>
           </div>
         </div>

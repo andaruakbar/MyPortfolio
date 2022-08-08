@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -175,6 +176,16 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-900">
+            <a
+              href="https://youtu.be/-f-BR8LF-sQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              Youtube <FaYoutube size={30} />
             </a>
           </li>
         </ul>
